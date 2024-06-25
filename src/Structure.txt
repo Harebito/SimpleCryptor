@@ -1,0 +1,21 @@
+src/
+ ├── main/
+ │    └── java/
+ │        ├── codec/
+ │        │    ├── Base64Codec.java
+ │        │    ├── HexCodec.java
+ │        │    └── URLEncoderDecoder.java
+ │        ├── hash/
+ │        │    ├── MD5Hasher.java
+ │        │    ├── SHA1Hasher.java
+ │        │    ├── SHA256Hasher.java
+ │        │    ├── SHA512Hasher.java
+ │        │    └── CRC32Hasher.java
+ │        └── encryption/
+ │             ├── AESEncryptor.java
+ │             └── BlowfishEncryptor.java
+ └── test/
+      └── java/
+           ├── codec/
+           ├── hash/
+           └── encryption/
